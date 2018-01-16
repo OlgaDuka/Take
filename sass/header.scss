@@ -1,0 +1,106 @@
+.header {
+  margin: 0 auto;
+  padding: 3.5% 17.5% 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 100vw;
+  min-width: $panel-width;
+  height: 55vw;
+  background-image: url('../images/Image@0,5x.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  @media (min-width: $tablet-width) {
+    background-image: url('../images/Image@1x.jpg');
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url('../images/Image@2x.jpg');
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 474px;
+    position: absolute;
+    top: 28%;
+    left: 46%;
+    background-image: url('../images/iPhone@0,5x.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+
+    @media (min-width: $tablet-width) {
+      height: 948px;
+      background-image: url('../images/iPhone@1x.png');
+    }
+
+    @media (min-width: $desktop-width) {
+      height: 1896px;
+      background-image: url('../images/iPhone@2x.png');
+    }
+  }
+}
+
+.header__logo {
+  margin-bottom: auto;
+  color: $light-color;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: $weight-bold;
+  line-height: 35px;
+  padding-left: 40px;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+    border: 2px solid $light-color;
+    border-radius: 50%;
+  }
+
+  &::after {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+  }
+}
+
+.header__title,
+.header__text {
+  margin-bottom: 0.3em;
+  color: $light-color;
+  font-weight: $weight-light;
+  font-size: 24px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+  }
+}
+
+.header__text {
+  width: 70%;
+  font-size: 11px;
+  line-height: 1.5em;
+
+  @media (min-width: $tablet-width) {
+    width: 40%;
+    font-size: 13px;
+  }
+
+
+}

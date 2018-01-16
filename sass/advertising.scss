@@ -1,0 +1,58 @@
+.advertising {
+  margin: 0 auto;
+  padding: 0 17% 7%;
+  width: 100vw;
+  min-width: $panel-width;
+  height: 55vw;
+  background-image: url('../images/car@0,5x.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  @media (min-width: $tablet-width) {
+    padding: 23% 17% 7%;
+    background-image: url('../images/car@1x.jpg');
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 28% 17% 7%;
+    background-image: url('../images/car@2x.jpg');
+  }
+}
+
+.advertising__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $light-color;
+}
+
+.advertising__title {
+  font-weight: $weight-light;
+  font-size: 24px;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+
+  @media (min-width: $tablet-width) {
+    font-size: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 4vw;
+  }
+}
+
+.advertising__text {
+  font-size: 11px;
+  line-height: 1.5em;
+
+  @media (min-width: $tablet-width) {
+    font-size: 12px;
+    width: 70%;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 13px;
+    width: 60%;
+  }
+}

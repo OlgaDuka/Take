@@ -1,0 +1,157 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin-left: auto;
+    margin-right: 0;
+    width: 82vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+
+.features__block {
+  width: 80%;
+  height: 40vw;
+  padding: 2.8% 3.9% 3.5% 2.8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $light-color;
+
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    height: 30vw;
+
+    &--small {
+      width: 50%;
+    }
+
+    &--double {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 27%;
+    height: 15vw;
+    &--small {
+      width: 19%;
+    }
+
+    &--double {
+      width: 54%;
+    }
+  }
+
+  &:nth-of-type(1) {
+    background-color: #f5989d;
+  }
+
+  &:nth-of-type(2) {
+    background-color: #615f7d;
+  }
+
+  &:nth-of-type(3) {
+    background-image: url('../images/feature1@0,5x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: $tablet-width) {
+      background-image: url('../images/feature1@1x.jpg');
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url('../images/feature1@2x.jpg');
+    }
+  }
+
+  &:nth-of-type(4) {
+    padding-right: 0;
+    background-color: #bd8cbf;
+  }
+
+  &:nth-of-type(5) {
+    padding-right: 20%;
+    background-image: url('../images/feature2@0,5x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: $tablet-width) {
+      background-image: url('../images/feature2@1x.jpg');
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url('../images/feature2@2x.jpg');
+    }
+
+  }
+
+  &:nth-of-type(6) {
+    background-color: #82ca9c;
+  }
+
+  &:nth-of-type(7) {
+    padding-right: 0;
+    background-image: url('../images/feature3@0,5x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: $tablet-width) {
+      background-image: url('../images/feature3@1x.jpg');
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url('../images/feature3@2x.jpg');
+    }
+  }
+}
+
+.features__title {
+  font-weight: $weight-light;
+  font-size: 20px;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 1.7vw;
+  }
+}
+
+.features__text {
+  font-weight: $weight-light;
+  font-size: 11px;
+  line-height: 1.7em;
+
+  @media (min-width: $tablet-width) {
+    font-size: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 0.7vw;
+  }
+}
+
+.features__more {
+  font-weight: $weight-bold;
+  font-size: 12px;
+  line-height: 1.3em;
+  text-decoration: none;
+  color: $light-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 0.8vw;
+  }
+}
