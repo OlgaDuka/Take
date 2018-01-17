@@ -613,7 +613,7 @@ a:hover {
 .features__block {
   width: 80%;
   height: 40vw;
-  padding: 2.8% 3.9% 3.5% 2.8%;
+  padding: 2vw 3vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,7 +777,7 @@ a:hover {
   padding: 0 17% 7%;
   width: 100vw;
   min-width: 320px;
-  height: 60vw;
+  height: 65vw;
   background-image: url("../images/car@0,5x.jpg");
   background-repeat: no-repeat;
   background-position: top;
@@ -843,7 +843,6 @@ a:hover {
 
 .price {
   width: 100vw;
-  padding: 5% 17.2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -860,7 +859,8 @@ a:hover {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      padding: 5% 17.2%; } }
 
 .price__block {
   display: -webkit-box;
@@ -876,7 +876,7 @@ a:hover {
   width: 100%;
   height: auto;
   margin: 5% 0;
-  padding: 5% 4%;
+  padding: 3vw 3vw;
   text-align: center; }
   .price__block:hover {
     background-color: #ffffff;
@@ -897,7 +897,7 @@ a:hover {
 .price__plan {
   -ms-flex-item-align: auto;
       align-self: auto;
-  padding: 1.5% 3%;
+  padding: 5px;
   font-size: 9px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -927,7 +927,7 @@ a:hover {
       align-self: auto;
   margin-top: 6px;
   margin-bottom: 10px;
-  padding: 3% 5%;
+  padding: 7px 9px;
   font-size: 11px;
   text-transform: uppercase;
   color: #ffffff;
