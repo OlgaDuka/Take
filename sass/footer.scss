@@ -1,0 +1,99 @@
+.footer {
+  width: 100vw;
+  padding: 2% 17.2% 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #192431;
+  color: $light-color;
+}
+
+.footer__contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+}
+
+.footer__offer {
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    width: 70%;
+    margin-right: 10%;
+  }
+}
+
+.footer__title {
+  font-size: 11px;
+  line-height: 1.5em;
+  font-weight: $weight-bold;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 1.5em;
+  font-weight: $weight-light;
+
+  &--note {
+    color: #666666;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer__typelink {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.footer__link {
+  font-size: 12px;
+  line-height: 1.7em;
+  font-weight: $weight-light;
+  color: $light-color;
+  text-decoration: none;
+}
+
+.footer__form-container {
+  display: flex;
+}
+
+.footer__userdata {
+  width: 70%;
+  height: 40px;
+  margin-right: 0;
+  background-color: #f6f7fa;
+  border-color: transparent;
+  padding-left: 3%;
+}
+
+.footer__submit {
+  width: 15%;
+  height: 40px;
+  margin: 0;
+  background-color: #82ca9c;
+  border: none;
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-bottom: 1px solid $light-color;
+    border-left: 1px solid $light-color;
+    transform: rotate(-45deg);
+  }
+}

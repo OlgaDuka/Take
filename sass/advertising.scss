@@ -3,7 +3,7 @@
   padding: 0 17% 7%;
   width: 100vw;
   min-width: $panel-width;
-  height: 55vw;
+  height: 60vw;
   background-image: url('../images/car@0,5x.jpg');
   background-repeat: no-repeat;
   background-position: top;
@@ -54,5 +54,21 @@
   @media (min-width: $desktop-width) {
     font-size: 13px;
     width: 60%;
+  }
+}
+
+.advertising__more {
+  font-weight: $weight-bold;
+  font-size: 12px;
+  line-height: 1.3em;
+  text-decoration: none;
+  color: $light-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 0.8vw;
   }
 }
