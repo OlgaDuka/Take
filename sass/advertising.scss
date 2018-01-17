@@ -4,19 +4,19 @@
   width: 100vw;
   min-width: $panel-width;
   height: 60vw;
-  background-image: url('../images/car@0,5x.jpg');
+  background-image: url("../images/car@0,5x.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 
   @media (min-width: $tablet-width) {
     padding: 23% 17% 7%;
-    background-image: url('../images/car@1x.jpg');
+    background-image: url("../images/car@1x.jpg");
   }
 
   @media (min-width: $desktop-width) {
     padding: 28% 17% 7%;
-    background-image: url('../images/car@2x.jpg');
+    background-image: url("../images/car@2x.jpg");
   }
 }
 

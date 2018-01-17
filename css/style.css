@@ -854,7 +854,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #f6f7fA; }
+  background-color: #f6f7fa; }
   @media (min-width: 768px) {
     .price {
       -webkit-box-orient: horizontal;

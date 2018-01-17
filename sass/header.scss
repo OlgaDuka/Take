@@ -8,17 +8,17 @@
   width: 100vw;
   min-width: $panel-width;
   height: 55vw;
-  background-image: url('../images/Image@0,5x.jpg');
+  background-image: url("../images/Image@0,5x.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 
   @media (min-width: $tablet-width) {
-    background-image: url('../images/Image@1x.jpg');
+    background-image: url("../images/Image@1x.jpg");
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url('../images/Image@2x.jpg');
+    background-image: url("../images/Image@2x.jpg");
   }
 
   &::before {
@@ -29,19 +29,19 @@
     position: absolute;
     top: 28%;
     left: 46%;
-    background-image: url('../images/iPhone@0,5x.png');
+    background-image: url("../images/iPhone@0,5x.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
 
     @media (min-width: $tablet-width) {
       height: 948px;
-      background-image: url('../images/iPhone@1x.png');
+      background-image: url("../images/iPhone@1x.png");
     }
 
     @media (min-width: $desktop-width) {
       height: 1896px;
-      background-image: url('../images/iPhone@2x.png');
+      background-image: url("../images/iPhone@2x.png");
     }
   }
 }
@@ -101,6 +101,4 @@
     width: 40%;
     font-size: 13px;
   }
-
-
 }

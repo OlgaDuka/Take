@@ -40,6 +40,7 @@
   @media (min-width: $desktop-width) {
     width: 27%;
     height: 15vw;
+
     &--small {
       width: 19%;
     }
@@ -58,16 +59,16 @@
   }
 
   &:nth-of-type(3) {
-    background-image: url('../images/feature1@0,5x.jpg');
+    background-image: url("../images/feature1@0,5x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
     @media (min-width: $tablet-width) {
-      background-image: url('../images/feature1@1x.jpg');
+      background-image: url("../images/feature1@1x.jpg");
     }
 
     @media (min-width: $desktop-width) {
-      background-image: url('../images/feature1@2x.jpg');
+      background-image: url("../images/feature1@2x.jpg");
     }
   }
 
@@ -78,18 +79,17 @@
 
   &:nth-of-type(5) {
     padding-right: 20%;
-    background-image: url('../images/feature2@0,5x.jpg');
+    background-image: url("../images/feature2@0,5x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
     @media (min-width: $tablet-width) {
-      background-image: url('../images/feature2@1x.jpg');
+      background-image: url("../images/feature2@1x.jpg");
     }
 
     @media (min-width: $desktop-width) {
-      background-image: url('../images/feature2@2x.jpg');
+      background-image: url("../images/feature2@2x.jpg");
     }
-
   }
 
   &:nth-of-type(6) {
@@ -98,16 +98,16 @@
 
   &:nth-of-type(7) {
     padding-right: 0;
-    background-image: url('../images/feature3@0,5x.jpg');
+    background-image: url("../images/feature3@0,5x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
     @media (min-width: $tablet-width) {
-      background-image: url('../images/feature3@1x.jpg');
+      background-image: url("../images/feature3@1x.jpg");
     }
 
     @media (min-width: $desktop-width) {
-      background-image: url('../images/feature3@2x.jpg');
+      background-image: url("../images/feature3@2x.jpg");
     }
   }
 }
