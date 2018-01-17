@@ -952,10 +952,10 @@ a:hover {
       opacity: 0.2; }
 
 .price__apple {
-  background-image: url("../images/svg/fa-apple.svg"); }
+  background-image: url("../images/fa-apple.svg"); }
 
 .price__microsoft {
-  background-image: url("../images/svg/fa-windows.svg"); }
+  background-image: url("../images/fa-windows.svg"); }
 
 .footer {
   width: 100vw;
